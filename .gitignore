@@ -1,0 +1,33 @@
+# Local environments and dependencies
+.venv/
+venv/
+.qt-test-deps/
+.qt-test-tmp/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Private local data, logs, credentials, and backups
+*.db
+*.db-*
+*.sqlite*
+logs/
+*.log
+*.bak
+.assistant-*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,5 @@
+ollama
+PySide6
+requests
+pypdf
+python-docx
